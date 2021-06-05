@@ -3,7 +3,7 @@
       <title>The Official my Favorite Stuff Website</title>
     </head>
   <body id="everything">
-    <div id = "pages">
+    <div id="pages">
          <h1>The Official my Favorite Stuff Website</h1> <br>
             <h1>Pages:</h1>
         <button>
@@ -21,11 +21,14 @@
             <button>
             <h1><a href="#reviews">Reviews</a></h1>
             </button>
+            <button>
+            <h1><a href="#inspirations">Inspirations</a></h1>
+            </button>
       </div>
     <section id="math">
     <center>
         <img src="https://www.mcvts.net/cms/lib/NJ01911694/Centricity/Domain/1021/Math%20001.png" width="400" height="200"/>
-    <p id="display">Math</p>
+    <h1 id="display">Math</h1>
       <hr size="10" noshade color="black" width="100">
       <h2>One of my favorite things to do <br />
         is math. I wouldn't look into <br />
@@ -41,7 +44,7 @@
       <center>
         <br />
             <img src="https://cms-assets.tutsplus.com/uploads/users/108/posts/25302/image/seven-drawing-sins-2-mind-photo.png" width="300"/>
-    <p id="display">Drawing</p>
+    <h1 id="display">Drawing</h1>
       <hr size="10" noshade color="black" width="100">
       <h2>
         Another thing that I like to do is draw.<br />
@@ -56,7 +59,7 @@
       <section id="longs">
     <center>
             <img src="https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1555462867/shape/mentalfloss/31904-wikimediacommons-long_s_0.png?itok=8c9q45Ag" width="200" height="200"/>
-            <p id="display">The Long S</p>
+            <h1 id="display">The Long S</h1>
       <hr size="10" noshade color="black" width="100">
             <h2>Another one of my interests is old language.  <br/>
         I've heard of this old letter  that looks like this:ſ(a funky f)<br /> 
@@ -69,9 +72,9 @@
         </center>
     </section>
         <section id = "works">
-      <p id = "display">Works For My Favorite Stuff.</p>
-            <p id="display">Finding Mistakes In Math:</p>
-            <p id="display">Finding the area of a circle. Radius: 5 units.</p><br>
+      <h1 id = "display">Works For My Favorite Stuff.</h1>
+            <h2>Finding Mistakes In Math:</h2>
+            <h2>Finding the area of a circle. Radius: 5 units.</h2><br>
             <hr size="10" noshade color="black" width="100">
            <h1>3.14<br>
                x 25<br>
@@ -83,7 +86,7 @@
             <h1>Oh No! I forgot to carry the one during addition!</h1><br>
             <h1>The real answer is 78.50.</h1><br>
             <h1>That's a real mistake I once did.</h1><br>
-            <p id="display">Abstract Art Piece Of Work:</p>
+            <h1 id="display">Abstract Piece Of Art Work:</h1>
             <hr size="10" noshade color="black" width="100">
             <img src="webcam-toy-photo1.jpg">
             <h1>The idea is that a lot of faces are similar to each other.</h1>
@@ -98,7 +101,14 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/RKK7wGAYP6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br>
         <br>
-    </section>
+      </section>
+      <section id="inspirations">
+      <h1 id="display">Inspirations</h1>
+          <hr size="10" noshade color="black" width="100">
+          <h1>Click on the pictures to view my inspirations.</h1>
+          <h2>Jackson Pollock</h2><a href="https://www.jackson-pollock.org/" target="_blank"><img  id="size" src="https://uploads0.wikiart.org/images/paul-jackson-pollock.jpg!PinterestLarge.jpg" width="400"/></a>
+          <h2>Pythagoras</h2><a href="https://www.youtube.com/watch?v=HYulFhPtoAo" target="_blank"><img  id="size" width="400" src="https://myhero.com/images/guest/g35723/hero32426/g35723_u34867_Pythagoras_10.jpeg"/></a>
+      </section>
       <style>
       #everything{
     background-color: darkgray;
@@ -111,11 +121,14 @@
         #display{
           font-size:60px;
         }
-          .top{
-              margin-top:30px;
-          }
           html{
               scroll-behavior: smooth;
+          }
+          img { 
+              transition: transform .2s;
+          }
+          img:hover { 
+              transform: scale(0.75);
           }
           </style>
   </body>
